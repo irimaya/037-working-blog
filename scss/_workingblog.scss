@@ -1,0 +1,184 @@
+// Nav
+#navbar {
+  ul {
+    float: right;
+    li {
+      list-style: none;
+      float: left;
+      a {
+        padding: 20px;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .logo {
+    font-size: 1.7rem;
+    font-weight: 900;
+    float: left;
+  }
+  .current {
+    text-decoration: underline;
+  }
+} //End #navbar
+
+// Showcase 
+#showcase {
+  p {
+    width: 60%;
+  }
+  h4 {
+    font-weight: 400;
+  }
+}
+
+// Blog
+#blog {
+  .blog-wrap {
+    display: flex;
+    justify-content: space-between;
+    .box {
+      position: relative;
+      // width: 100%;
+      flex-basis: 30%;
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        a {
+          color: #fff;
+          margin: 100px;
+        }
+        .img-1 {
+          background: url('../img/img-1.jpg');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
+        .img-2 {
+          background: url('../img/img-2.jpg');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
+        .img-3 {
+          background: url('../img/img-3.jpg');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
+        .img-4 {
+          background: url('../img/img-4.jpg');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
+        .img-5 {
+          background: url('../img/img-5.jpg');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
+        .img-6 {
+          background: url('../img/img-6.jpg');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+    .box:hover .overlay{
+      opacity: 1;
+    }
+  } //End .blog-wrap
+} //End #blog
+
+// Footer 
+#mainfooter {
+  background: #000;
+  color: #fff;
+}
+
+// Post
+#post {
+  display: flex;
+  .post-content {
+    flex-basis: 60%;
+    height: 100vh;
+    &-body {
+      padding: 80px;
+    }
+    footer {
+      position: absolute;
+      bottom: 0;
+      width: 60%;
+    }
+  }
+  .post-bk-1 {
+    background: url('../img/img-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    flex-basis: 40%;
+  }
+  .post-bk-2 {
+    background: url('../img/img-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    flex-basis: 40%;
+  }
+  .post-bk-3 {
+    background: url('../img/img-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    flex-basis: 40%;
+  }
+  .post-bk-4 {
+    background: url('../img/img-4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    flex-basis: 40%;
+  }
+  .post-bk-5 {
+    background: url('../img/img-5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    flex-basis: 40%;
+  }
+  .post-bk-6 {
+    background: url('../img/img-6.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    flex-basis: 40%;
+  }
+} //End #post
